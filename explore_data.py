@@ -32,5 +32,5 @@ def find_statistics_by_airport():
         airport_df.to_csv(BY_AIRPORT_DIR + f"/{airport_file_pointer}.csv", index=False)
 
 
-# find_all_usa_statistics()
+find_all_usa_statistics()
 find_statistics_by_airport()
